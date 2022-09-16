@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: rgb(25, 25, 139);
+}
+#intro{
+    background-color: rgb(240, 234, 234);
+    text-align: center;
+    color: blueviolet;
+    width: auto;
+    font-size: large;
+}
+#logo{
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#header{
+/* Auto layout */
+width: auto;
+height: 200px;
+align-items: center;
+justify-content: center;
+display: flex;
+gap: 10px;
+flex-direction: row;
+position: relative;
+}
+input{
+    height: 31px;
+}
+select{
+    height: 31px;
+    width: 173px;
+}
+button{
+    width: 173px;
+}
+#form1{
+    display:inline-table;
+    height: 100px;
+}
+#formid{
+    height: 200px;
+}
+#services{
+/* Auto layout */
+box-sizing: border-box;
+width: 1070px;
+height: 200px;
+border: 2px solid #FFFFFF;
+border-radius: 40px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+display: flex;
+padding: 40px;
+padding-left: 250px;
+margin-left: 140px;
+gap:50px;
+color: white;
+}
+#chelp{
+box-sizing: border-box;
+width: 1070px;
+height: 200px;
+border: 2px solid #FFFFFF;
+border-radius: 40px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+display: flex;
+padding-left: 250px;
+margin-left: 140px;
+gap:50px;
+color: white;
+padding-top: 40px; 
+}
+#contact1{
+ width: 856px;
+ background: white;
+ border: 1px;
+ border-radius: 20px;
+ text-align: center;
+ margin: 20px;
+ height: 120px;
+ padding-top: 20px;
+ margin-left: 250px;
+ margin-bottom: 0px;
+
+}
+#footer1{
+    background-color: cyan;
+    padding: 60px;
+    gap:15px;
+    height: 260px;
+      
+}
